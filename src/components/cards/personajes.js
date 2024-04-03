@@ -20,10 +20,13 @@ export default function CardPersonajes({ item }) {
                         />
                     </div>
                     <div className="px-4 border-t border-gray-200" >
-                        <h4 className="text-sm my-4 text-center text-white">{item.name}</h4>
+                        <h4 className="text-sm my-4 text-center text-white">Nombre: <b>{item.name}</b></h4>
+                        <h4 className="text-sm my-4 text-center text-white">Género: {item.gender}</h4>
                     </div>
-                    <div className="px-4 border-t border-gray-200 mt-2">
-                        {/* <p className="text-2xl font-semibold mb-6 text-end text-red-600">u$s {item.price}</p> */}
+                    <div className="px-4 border-t border-gray-200 mt-2 p-4 grid justify-items-end">
+                        <button className="text-center bg-blue-200 rounded-full border p-2">
+                            + info
+                        </button>
                     </div>
                 </Link>
             </article>
