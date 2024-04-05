@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <div>
-            <header className="w-full bg-black border-t border-white">
+            <footer className="w-full bg-black border-t border-white">
                 <div className='container m-auto flex justify-between items-center'>
                     <nav className='flex justify-between gap-2 mr-6 text-white'>
                         <p>Hecho con 💛 por Cecilia Perdomo</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </p>
 
                 </div>
-            </header>
+            </footer>
             <br />
         </div>
     )
