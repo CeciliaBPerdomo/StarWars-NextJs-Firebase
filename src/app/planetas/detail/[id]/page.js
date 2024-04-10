@@ -1,11 +1,10 @@
-import PersonajeIndividual from "@/components/personajes/DetallePersonajes"
-
 function DetallePersonajes({params}) {
     const {id} = params
 
     return (
         <div>
-            <PersonajeIndividual id={id} />
+            hola {id}
+            {/* <PersonajeIndividual id={id} /> */}
         </div>
     )
 }

@@ -7,6 +7,12 @@ const nextConfig = {
                 hostname: 'starwars-visualguide.com', 
                 port: "", 
                 pathname: "/**"
+            },
+            {
+                protocol: "https", 
+                hostname: 'static.wikia.nocookie.net', 
+                port: "", 
+                pathname: "/**"
             }
         ]
     }
