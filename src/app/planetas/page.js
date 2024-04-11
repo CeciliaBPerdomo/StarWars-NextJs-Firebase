@@ -1,6 +1,5 @@
 import ListaPlanetas from "@/components/planetas/ListadePlanetas";
 
-
 export default function Planetas() {
     return (
         <div className="bg-black">

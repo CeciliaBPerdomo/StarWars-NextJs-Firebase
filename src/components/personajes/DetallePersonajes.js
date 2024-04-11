@@ -13,8 +13,8 @@ const PersonajeIndividual = async ({ id }) => {
         .catch(error => console.error('Fetch error:', error));
 
     return (
-        <div className="bg-black">
-            <div className="max-w-6xl m-auto p-6 text-white">
+        <div className="bg-black p-10">
+            <div className="max-w-6xl m-auto p-6 text-white border border-white">
                 <section className="flex gap-6">
                     <div className="relative basis-1/2">
                         <Image
@@ -22,7 +22,7 @@ const PersonajeIndividual = async ({ id }) => {
                             alt={item.name}
                             width={320}
                             height={860}
-                            className="rounded-lg"
+                            className="rounded-lg ml-10"
                         />
                     </div>
 

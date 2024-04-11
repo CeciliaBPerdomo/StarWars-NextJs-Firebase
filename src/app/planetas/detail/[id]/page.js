@@ -1,10 +1,11 @@
+import PlanetaIndividual from "@/components/planetas/DetallePlaneta"
+
 function DetallePersonajes({params}) {
     const {id} = params
 
     return (
         <div>
-            hola {id}
-            {/* <PersonajeIndividual id={id} /> */}
+           <PlanetaIndividual id={id} />
         </div>
     )
 }
