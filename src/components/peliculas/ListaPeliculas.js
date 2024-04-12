@@ -1,10 +1,10 @@
-import CardPersonajes from "./personajes";
+import CardPeliculas from "./CardPeliculas";
 
-const ListaPersonajes = async () => {
+const ListaPeliculas = async () => {
     try {
-        const response = await fetch(`${process.env.API_URL}/api/personajes`, {
+        const response = await fetch(`${process.env.API_URL}/api/peliculas`, {
             cache: "no-store",
-            next: { tags: ["personajes"] },
+            next: { tags: ["peliculas"] },
             headers: { 'Content-Type': 'application/json' }  // Especifica el tipo de contenido esperado
         })
         if (!response.ok) {
@@ -14,7 +14,7 @@ const ListaPersonajes = async () => {
         if (items) {
             return (
                 <section className="container m-auto flex justify-center items-center gap-12 flex-wrap">
-                    {items.map(item => <CardPersonajes key={item.id} item={item} />)}
+                    {items.map(item => <CardPeliculas key={item.id} item={item} />)}
                 </section>
 
             );
@@ -28,4 +28,4 @@ const ListaPersonajes = async () => {
     return <p>No hay personajes baby!</p>;
 }
 
-export default ListaPersonajes
+export default ListaPeliculas
