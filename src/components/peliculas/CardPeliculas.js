@@ -19,7 +19,7 @@ export default function CardPeliculas({ item }) {
                         <h4 className="text-sm my-4 text-center text-white">Título: <b>{item.title}</b></h4>
                         <h4 className="text-sm my-4 text-center text-white">Director: {item.director}</h4>
                     </div>
-                    <Link href={`/planetas/detail/${item.id}`}>
+                    <Link href={`/peliculas/detail/${item.id}`}>
                         <div className="px-4 border-t border-gray-200 mt-2 p-4 grid justify-items-end">
                             <button className="text-center bg-blue-200 rounded-full border p-2">
                                 + info
