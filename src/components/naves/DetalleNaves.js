@@ -33,6 +33,7 @@ const NavesIndividual = async ({ id }) => {
 
                         <p className="text-xl font-semibold pb-2">Módelo: {item.model}</p>
                         <p className="text-xl font-semibold pb-2">Fabricante: {item.manufacturer}</p>
+                        <p className="text-xl font-semibold pb-2">Longitud: {item.length}</p>
                         <p className="text-xl font-semibold pb-2">Costo en créditos: {item.cost_in_credits}</p>
                         <p className="text-xl font-semibold pb-2">Velocidad máxima: {item.max_atmosphering_speed}</p>
                         <p className="text-xl font-semibold pb-2">Tripulación: {item.crew}</p>

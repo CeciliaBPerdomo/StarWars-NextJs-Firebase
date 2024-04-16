@@ -1,0 +1,10 @@
+[Error: EINVAL: invalid argument, readlink 'C:\Users\cecil\OneDrive\Documents\StarWars\star\.next\app-build-manifest.json'] {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'readlink',
+  path: 'C:\\Users\\cecil\\OneDrive\\Documents\\StarWars\\star\\.next\\app-build-manifest.json'
+}
+
+En la terminal: 
+rm .next    --> Si
+npm install 
