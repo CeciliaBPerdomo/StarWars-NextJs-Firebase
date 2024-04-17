@@ -16,7 +16,7 @@ const PersonajeIndividual = async ({ id }) => {
         <div className="bg-black p-10">
             <div className="max-w-6xl m-auto p-6 text-white border border-white rounded-lg">
                 <section className="flex gap-6">
-                    <div className="relative basis-1/2">
+                    <div className="flex items-center">
                         <Image
                             src={item.photo}
                             alt={item.name}

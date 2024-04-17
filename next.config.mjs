@@ -13,6 +13,18 @@ const nextConfig = {
                 hostname: 'static.wikia.nocookie.net', 
                 port: "", 
                 pathname: "/**"
+            },
+            {
+                protocol: "https", 
+                hostname: 'umiere-a.akamaihd.net', 
+                port: "", 
+                pathname: "/**"
+            },
+            {
+                protocol: "https", 
+                hostname: 'i.pinimg.com', 
+                port: "", 
+                pathname: "/**"
             }
         ]
     }

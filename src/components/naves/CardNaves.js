@@ -10,14 +10,14 @@ export default function CardNaves({ item }) {
                         <Image
                             alt={item.name}
                             src={item.photo}
-                            width={240}
-                            height={200}
-                            style={{ objectFit: "contain" }}
+                            width={250}
+                            height={60}
+                            style={{ objectFit: "cover" }}
                         />
                     </div>
                     <div className="px-4 border-t border-gray-200" >
                         <h4 className="text-sm my-4 text-center text-white">Nombre: <b>{item.name}</b></h4>
-                        <h4 className="text-sm my-4 text-center text-white">Fabricante: {item.manufacturer}</h4>
+                        <h4 className="text-sm my-4 text-center text-white">Módelo: {item.model}</h4>
                     </div>
                     <Link href={`/naves/detail/${item.id}`}>
                         <div className="px-4 border-t border-gray-200 mt-2 p-4 grid justify-items-end">

@@ -1,11 +1,18 @@
 import ListaPlanetas from "@/components/planetas/ListadePlanetas";
+import Image from "next/image";
 
 export default function Planetas() {
     return (
         <div className="bg-black">
-            <h1 className="text-blue-800 ml-8 pt-8 text-3xl text-center mb-8">
-                Planetas
-            </h1>
+            <div className="flex justify-center items-center p-6">
+                <Image
+                    src="/Planetas.png"
+                    alt="planetas-de-star-wars"
+                    width={450}
+                    height={50}
+                    className="rounded-lg"
+                />
+            </div>
             <ListaPlanetas />
         </div>
     );
