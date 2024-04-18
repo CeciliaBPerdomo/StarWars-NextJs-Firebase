@@ -29,7 +29,7 @@
             <img src="https://www.dongee.com/tutoriales/content/images/2022/12/image-82.png" width="60%" />
         </td>
           <td align="center">
-            <img src="../public/js.jpg" width="60%" />
+            <img src="https://ih1.redbubble.net/image.318732690.4529/flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" width="60%" />
         </td>
         <td align="center">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/800px-Firebase_Logo.svg.png" width="60%" />
