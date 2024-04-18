@@ -8,7 +8,9 @@ const Footer = () => {
             <footer className="w-full bg-black border-t border-white">
                 <div className='container m-auto flex justify-between items-center'>
                     <nav className='flex justify-between gap-2 mr-6 text-white'>
-                        <p>Hecho con 💛 por Cecilia Perdomo</p>
+                        <Link href="https://ceciliaperdomo.vercel.app/">
+                            <p>Hecho con 💛 por Cecilia Perdomo</p>
+                        </Link>
                     </nav>
                     <p className='text-4xl text-bold text-slate-100 mr-8'>
                         <Link href={"/"}>
